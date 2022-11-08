@@ -5,10 +5,34 @@
 body {
   padding: 0;
   margin: 0;
+  font-family: 'Karla', sans-serif;
 }
 
 .header-div {
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+  color: white;
+  gap: 100px;
+  height: 65px;
+}
+.header-icon {
+  width: 50px;
+}
+.inner-div {
+  display: flex;
+  align-items: center;
+  padding-left: 20px;
+}
+.header-title {
+  font-size: 21px;
+  font-weight: 700;
+  letter-spacing: -0.1em;
+}
+.header-subtitle {
+  padding-right: 37px;
+  font-family: inter, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
 }
