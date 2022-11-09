@@ -18,7 +18,8 @@ body {
   height: 65px;
 }
 .header-icon {
-  width: 50px;
+  width: 33px;
+  padding-right: 6px;
 }
 .inner-div {
   display: flex;
@@ -32,7 +33,8 @@ body {
 }
 .header-subtitle {
   padding-right: 37px;
-  font-family: inter, sans-serif;
+  font-family: 'inter', sans-serif;
   font-size: 12px;
   font-weight: 500;
+  color: #FFFFFF;
 }
