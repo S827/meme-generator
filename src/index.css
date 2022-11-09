@@ -38,3 +38,43 @@ body {
   font-weight: 500;
   color: #FFFFFF;
 }
+.meme-textInput {
+  /* padding-left: 36px; */
+  padding-top: 36px;
+}
+.meme-textInput > input {
+  width: 230px;
+  height: 35px;
+  border: 1px solid #D5D4D8;
+  border-radius: 5px; 
+  padding: 10px;
+  color: #0D0D0D;
+  font-weight: 400;
+  font-size: 12px;
+}
+.firstTextInput {
+  margin-right: 16px;
+}
+
+.meme-button {
+  width: 477px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+  /* margin-left: 36px; */
+  margin-top: 15px;
+  font-family: 'Karla', sans-serif;
+  font-weight: 700;
+  color: #FFFFFF;
+  background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+}
+
+.meme-div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.meme-frame {
+  width: 15px;
+}
