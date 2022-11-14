@@ -79,3 +79,7 @@ body {
 .meme-frame {
   width: 15px;
 }
+
+.meme-image{
+  width: 100%;
+}
